@@ -13,7 +13,8 @@ public class Frag01 {   /*Define a Class*/
         i = scan.nextInt(); //程序运行到这里，输入了一个数字和一个回车符，这一行拿走了数字就不管了。后来scan.nextLine()遇到回车符就终止了。
         System.out.println("Now the value of i is " + i + ".");
 
-        scan.nextLine();    //清理回车符
+        //scan.nextLine();    //清理回车符
+        scan.skip("\\R");   //强令scanner跳过后面的newline(换行符)
 
         System.out.println("Type something and press enter:");
         String s = scan.nextLine();     //The process ends when I rewrite "String s = scan.next();" as "String s = scan.nextLine();". Why?因为读取了上一行的回车符。
