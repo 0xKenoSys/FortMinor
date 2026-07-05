@@ -1,4 +1,4 @@
-package FindAllNumbersDisappeared;
+package LeetCode_PackItUp.FindAllNumbersDisappeared;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ public class FindAllNumbersDisappeared {
             if (nums[idx] > 0){
                 nums[idx] = -nums[idx];
             }
-        }
+        } 
 
         List<Integer> result = new ArrayList<>();   //尖括号 <Integer> 叫泛型（Generics）。int 要写成 Integer。
                                                     //最后空尖括号 <> 和圆括号 () 是固定搭配，告诉机器：“立刻执行造数组的动作，初始大小你看着办就行，反正以后不够用了你会自动扩容。”
