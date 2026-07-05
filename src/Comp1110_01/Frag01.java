@@ -1,4 +1,4 @@
-package LeetCode_PackItUp.Comp1110_01;
+package Comp1110_01;
 
 import java.util.Scanner;   //At first, I neglected this line /*util stands for utility*/
 
